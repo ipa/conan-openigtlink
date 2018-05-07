@@ -5,8 +5,8 @@ class OpenIGTLinkConan(ConanFile):
     version = "3.0"
     description = "Open IGT Link"
     url = "https://github.com/openigtlink/OpenIGTLink.git"
-    license = ""
-    exports = []
+    license = "BSD 3-Clause"
+    exports = ["LICENSE.txt"]
     source_subfolder = "source_subfolder"
     settings = "os", "compiler", "build_type", "arch"
     options = {}
